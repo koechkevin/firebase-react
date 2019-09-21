@@ -21,6 +21,7 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
+      - run: curl -sL firebase.tools | bash
 
       - save_cache:
           paths:
