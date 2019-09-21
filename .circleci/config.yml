@@ -28,3 +28,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn build
+      - run: firebase deploy --token "$FIREBASE_TOKEN"
