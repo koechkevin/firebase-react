@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-firebase/database": "^0.3.10",
     "dotenv": "^8.1.0",
     "firebase": "^6.6.2",
+    "firebase-admin": "^8.6.0",
     "firebase-tools": "^7.3.2",
+    "http2": "^3.3.7",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

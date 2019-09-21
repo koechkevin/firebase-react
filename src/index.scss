@@ -44,6 +44,8 @@
     cursor: pointer;
     outline: none;
     width: 120px;
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
   }
   details summary::-webkit-details-marker {
     display:none;
@@ -80,4 +82,9 @@
   min-height: 100px;
   border: 1px solid black;
   animation: rotate infinite 1s;
+}
+#leftBar {
+  &:hover {
+    background-color: red;
+  }
 }
