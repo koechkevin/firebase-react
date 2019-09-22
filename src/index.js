@@ -4,7 +4,8 @@ import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { config } from 'dotenv';
-import * as firebase from 'firebase';
+import * as firebase from 'firebase/app';
+import 'firebase/database'
 
 config();
 
